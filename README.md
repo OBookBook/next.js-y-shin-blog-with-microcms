@@ -14,6 +14,16 @@ npm i microcms-js-sdk
 ■ sass を npm でインストール
 npm i sass
 
+■ vercel にデプロイ
+プロジェクトビルドして、gitにプッシュ
+環境変数 api_keyの設定をすること。
+
+■ デプロイ後 Deploy Hooks
+vercel 側で Create Hook
+microCMS < API設定 < Webhook < カスタム通知 で 作成したHooksを登録
+vercelページのDomainのURLを確認
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
