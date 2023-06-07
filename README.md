@@ -1,3 +1,13 @@
+JamStackアーキテクチャ SSGを実装
+【初心者OK】Next.jsで自作ブログを作ってみよう【MicroCMSを利用】
+https://www.youtube.com/watch?v=dNpONz4Yi04
+
+■ バックエンド micoCMS サイトURL
+https://microcms.io/
+
+■ microcms-js-sdk を npm でインストール
+npm i microcms-js-sdk
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
