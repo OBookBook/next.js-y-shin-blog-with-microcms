@@ -1,5 +1,5 @@
 // http://localhost:3000/
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.scss'
 import Link from "next/link";
 import { client } from '@/libs/client'
 
@@ -34,7 +34,7 @@ totalCount: 1,
 
 export default function Home({ blog }) {
   return (
-    <div className='styles.container'>
+    <div className={styles.container}>
       {blog.map((blog) => (
         <li key={blog.id}>
           <Link href={`blog/${blog.id}`}>
